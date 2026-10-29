@@ -162,13 +162,7 @@ Follow these steps to set up and run SpendWise locally:
    ```bash
    npm install
    ```
-3. Create a `.env` file in the root of the `backend` directory and add your configurations:
-   ```env
-   PORT=4000
-   MONGO_URI=your_mongodb_connection_string
-   JWT_SECRET=your_jwt_secret_key
-   ```
-4. Start the development server (runs via Nodemon):
+3. Start the development server (runs via Nodemon):
    ```bash
    npm run dev
    ```
